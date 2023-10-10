@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>exo-1-cefim</title>
+
+    <link rel="stylesheet" href="css/reset-copie.css" />
+    <link rel="stylesheet" href="css/helpers.css" />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <script src="js/toggle.js" defer></script>
+  </head>
+  <body>
+    <header class="main-header">
+      <div class="container">
+        <div class="logo">
+          <a href="#"><img src="images/W..svg" alt="" /></a>
+        </div>
+        <nav class="header-nav">
+          <button class="menu" aria-expanded="false">
+            <span class="bar"></span><span class="bar"></span
+            ><span class="bar"></span>
+          </button>
+          <ul class="menu-list" hidden>
+            <li class="menu-item"><a href="#">Home</a></li>
+            <li class="menu-item"><a href="#new">New</a></li>
+            <li class="menu-item"><a href="#popular">Popular</a></li>
+            <li class="menu-item"><a href="#">Trending</a></li>
+            <li class="menu-item"><a href="#">Categories</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <div class="container">
+        <div class="main-hero-content">
+          <section class="section-1">
+            <picture>
+              <source
+                media="(max-width: 48em )"
+                srcset="/images/mobile-2x.jpg"
+              />
+              <img src="images/desktop-img.jpg" alt="" />
+            </picture>
+            <div class="hero">
+              <h1 class="heading-1">The Bright Future of Web 3.0?</h1>
+              <div class="content">
+                <p>
+                  We dive into the next evolution of the web that claims to put
+                  the power of the platforms back into the hands of the people.
+                  But is it really fulfilling its promise?
+                </p>
+                <a class="btn-readmore" href="#">Read more</a>
+              </div>
+            </div>
+          </section>
+          <section class="new" id="new">
+            <h2 class="new-heading">New</h2>
+            <ul class="list-new-contain">
+              <li class="list-new">
+                <h3><a href="#">Hydrogen VS Electric Cars</a></h3>
+                <p>Will hydrogen-fueled cars ever catch up to EVs?</p>
+              </li>
+              <li class="list-new">
+                <h3><a href="#">The Downsides of AI Artistry</a></h3>
+                <p>
+                  What are the possible adverse effects of on-demand AI image
+                  generation?
+                </p>
+              </li>
+              <li class="list-new3">
+                <h3><a href="#">Is VC Funding Drying Up?</a></h3>
+                <p>
+                  Private funding by VC firms is down 50% YOY. We take a look at
+                  what that means.
+                </p>
+              </li>
+            </ul>
+          </section>
+        </div>
+
+        <section>
+          <ul class="top-article" id="popular">
+            <li class="top-content">
+              <img src="images/Bitmap-_2_.webp" alt="" />
+              <div class="top-article-text">
+                <p class="num">01</p>
+                <h2><a href="#">Reviving Retro PCs</a></h2>
+                <p>What happens when old PCs are given modern upgrades?</p>
+              </div>
+            </li>
+            <li class="top-content">
+              <img src="images/Bitmap-_1_.webp" alt="" />
+              <div class="top-article-text">
+                <p class="num">02</p>
+                <h2><a href="#">Top 10 Laptops of 2022</a></h2>
+                <p>Our best picks for various needs and budgets.</p>
+              </div>
+            </li>
+            <li class="top-content">
+              <img src="images/Bitmap.webp" alt="" />
+              <div class="top-article-text">
+                <p class="num">03</p>
+                <h2><a href="#">The Growth of Gaming</a></h2>
+                <p>How the pandemic has sparked fresh opportunities.</p>
+              </div>
+            </li>
+          </ul>
+        </section>
+      </div>
+    </main>
+  </body>
+</html>
